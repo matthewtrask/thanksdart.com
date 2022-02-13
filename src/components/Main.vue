@@ -310,6 +310,17 @@
             },
           },
           {
+            name: 'Anders Folgar',
+            role: 'Friend of the Team',
+            bio: '',
+            img: 'anders.png',
+            shavedLegs: true,
+            socials: {
+              instagram: 'https://www.instagram.com/bigaubreezy/',
+              strava: 'https://www.strava.com/athletes/1407085',
+            },
+          },
+          {
             name: 'Andrew Hodges',
             role: 'Crit Racer | Cross Racer | Mullet Grower',
             bio: '',
