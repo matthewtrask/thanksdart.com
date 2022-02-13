@@ -97,7 +97,7 @@
   export default {
     methods: {
       getPic(img) {
-        return 'public/team/' + img;
+        return 'team/' + img;
       }
     },
     data() {
