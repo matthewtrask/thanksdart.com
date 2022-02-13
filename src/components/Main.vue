@@ -24,6 +24,16 @@
       <div class="w-2/3 mx-auto pb-12">
         <h2 class="font-sans font-extrabold antialiased sm:text-1xl lg:text-3xl text-center drop-shadow-lg">The Dart Cycling Team was put together to find the fun in cycle racing. Started in Savannah, GA we have members across the United States. From Nashville, Tennessee to Washington, D.C. you can find someone in a Dart kit riding up front leading the group.</h2>
       </div>
+      <div class="w-2/3 mx-auto pb-12">
+        <div class="socials h-12 sm:mb-12 flex justify-center pb-12">
+          <a href="https://instagram.com/thanksdart" class="pb-12">
+            <img class="sm:block h-24 w-auto mx-auto pr-12" src="../assets/instagram-brands.svg" alt="Dart Instagram Account">
+          </a>
+          <a href="https://www.strava.com/clubs/dartcycle" class="pb-12">
+            <img class="sm:block h-24 w-auto mx-auto pl-12" src="../assets/strava-brands.svg" alt="Dart Strava Club">
+          </a>
+        </div>
+      </div>
       <div class="w-2/3 mx-auto">
         <h2 class="pb-12 font-sans font-extrabold antialiased sm:text-1xl lg:text-3xl text-center drop-shadow-lg">Want to join us? Or have a question? Maybe just want to say hi?</h2>
         <div class="rounded-md bg-green-50 p-4 max-w-md" v-if="showSuccess">
@@ -158,11 +168,11 @@
             <p class="text-center tracking-wider font-bold lg:h-12">{{ team.role }}</p>
             <div class="socials h-12 sm:mb-12 flex justify-center">
               <div v-if="Object.keys(team.socials).length > 0">
-                <a :href="team.socials.instagram" class="pb-12" v-if="team.socials.instagram">
-                  <img class="sm:block h-10 w-auto mx-auto pb-4" src="../assets/instagram-brands.svg" alt="Workflow">
+                <a :href="team.socials.instagram" class="pb-12 inline-block pr-4" v-if="team.socials.instagram">
+                  <img class="sm:block h-10 w-auto mx-auto pb-4" src="../assets/instagram-brands.svg" :alt="team.name + 'Instagram'">
                 </a>
-                <a :href="team.socials.strava" class="pb-12" v-if="team.socials.strava">
-                  <img class="sm:block h-10 w-auto mx-auto pb-4" src="../assets/strava-brands.svg" alt="Workflow">
+                <a :href="team.socials.strava" class="pb-12 inline-block pl-4"  v-if="team.socials.strava">
+                  <img class="sm:block h-10 w-auto mx-auto pb-4 text-orange-500	" src="../assets/strava-brands.svg" :alt="team.name + 'Strava'">
                 </a>
               </div>
             </div>
@@ -181,10 +191,10 @@
             <div class="socials h-12 sm:mb-12 flex justify-center">
               <div v-if="Object.keys(team.socials).length > 0">
                 <a :href="team.socials.instagram" class="pb-12 inline-block pr-4" v-if="team.socials.instagram">
-                  <img class="sm:block h-10 w-auto mx-auto pb-4" src="../assets/instagram-brands.svg" alt="Workflow">
+                  <img class="sm:block h-10 w-auto mx-auto pb-4" src="../assets/instagram-brands.svg" :alt="team.name + 'Instagram'">
                 </a>
                 <a :href="team.socials.strava" class="pb-12 inline-block pl-4"  v-if="team.socials.strava">
-                  <img class="sm:block h-10 w-auto mx-auto pb-4 text-orange-500	" src="../assets/strava-brands.svg" alt="Workflow">
+                  <img class="sm:block h-10 w-auto mx-auto pb-4 text-orange-500	" src="../assets/strava-brands.svg" :alt="team.name + 'Strava'">
                 </a>
               </div>
             </div>
