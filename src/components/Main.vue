@@ -27,7 +27,7 @@
     </div>
     <div class="pt-12 pb-12 bg-black" id="sponsors">
       <div class="w-2/3 mx-auto">
-        <h2 class="font-sans text-white sm:text-3xl lg:text-5xl text-wide text-center drop-shadow-2xl uppercase font-bold">Sponsors</h2>
+        <h2 class="font-sans text-white text-5xl text-wide text-center drop-shadow-2xl uppercase font-bold">Sponsors</h2>
       </div>
     </div>
     <div class="flex">
@@ -39,7 +39,7 @@
     </div>
     <div class="pt-12 pb-12 bg-black" id="team">
       <div class="w-2/3 mx-auto">
-        <h2 class="font-sans text-white sm:text-3xl lg:text-5xl text-wide text-center drop-shadow-2xl uppercase font-bold">Team</h2>
+        <h2 class="font-sans text-white text-5xl text-wide text-center drop-shadow-2xl uppercase font-bold">Team</h2>
       </div>
     </div>
     <div class="pt-10 pb-10">
