@@ -48,10 +48,10 @@
           <div v-for="team in founders">
             <img :src="getPic(team.img)" v-bind:alt="team.name + ' image'" class="mx-auto h-32 w-32 rounded-full">
             <h4 class="text-center tracking-wider text-3xl pb-4">{{ team.name }}</h4>
-            <p class="text-center tracking-wider font-bold pb-4 lg:h-16">{{ team.role }}</p>
+            <p class="text-center tracking-wider font-bold lg:h-12">{{ team.role }}</p>
             <div class="socials h-12 sm:mb-12">
               <div v-if="Object.keys(team.socials).length > 0">
-                <a :href="team.socials.instagram">
+                <a :href="team.socials.instagram" class="pb-12">
                   <img class="sm:block h-10 w-auto justify-center mx-auto pb-4" src="../assets/instagram-brands.svg" alt="Workflow">
                 </a>
               </div>
