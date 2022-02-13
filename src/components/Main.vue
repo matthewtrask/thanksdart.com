@@ -44,18 +44,18 @@
     </div>
     <div class="pt-10 pb-10">
       <div class="w-2/3 mx-auto">
-        <div class="grid sm:grid-cols-1 sm:gap-1 lg:grid-cols-5 lg:gap-5">
+        <div class="grid sm:grid-cols-1 sm:gap-1 lg:grid-cols-3 lg:gap-3">
           <div v-for="team in founders">
             <img :src="getPic(team.img)" v-bind:alt="team.name + ' image'" class="mx-auto h-32 w-32 rounded-full">
             <h4 class="text-center tracking-wider text-3xl pb-4">{{ team.name }}</h4>
-            <div class="socials h-12">
+            <p class="text-center tracking-wider font-bold pb-4 lg:h-16">{{ team.role }}</p>
+            <div class="socials h-12 sm:mb-12">
               <div v-if="Object.keys(team.socials).length > 0">
                 <a :href="team.socials.instagram">
                   <img class="sm:block h-10 w-auto justify-center mx-auto pb-4" src="../assets/instagram-brands.svg" alt="Workflow">
                 </a>
               </div>
             </div>
-            <p class="text-center tracking-wider font-bold pb-4">{{ team.role }}</p>
          </div>
         </div> 
         <!-- <h2 class="font-sans font-extrabold antialiased sm:text-1xl lg:text-3xl text-center drop-shadow-lg"></h2> -->
@@ -63,18 +63,18 @@
     </div>
     <div class="pt-10 pb-10">
       <div class="w-2/3 mx-auto">
-        <div class="grid sm:grid-cols-2 sm:gap-2 lg:grid-cols-4 lg:gap-4">
-          <div v-for="team in teamMembers">
+        <div class="grid sm:grid-cols-2 sm:gap-2 sm:mb-12 lg:grid-cols-3 lg:gap-3">
+          <div v-for="team in teamMembers" class=" pb-12">
             <img :src="getPic(team.img)" v-bind:alt="team.name + ' image'" class="mx-auto h-32 w-32 rounded-full">
             <h4 class="text-center tracking-wider text-3xl pb-4">{{ team.name }}</h4>
-            <div class="socials h-12">
+            <p class="text-center tracking-wider font-bold lg:h-12">{{ team.role }}</p>
+            <div class="socials h-12 sm:mb-12">
               <div v-if="Object.keys(team.socials).length > 0">
-                <a :href="team.socials.instagram">
+                <a :href="team.socials.instagram" class="pb-12">
                   <img class="sm:block h-10 w-auto justify-center mx-auto pb-4" src="../assets/instagram-brands.svg" alt="Workflow">
                 </a>
               </div>
             </div>
-            <p class="text-center tracking-wider font-bold pb-4">{{ team.role }}</p>
          </div>
         </div>
         <!-- <h2 class="font-sans font-extrabold antialiased sm:text-1xl lg:text-3xl text-center drop-shadow-lg"></h2> -->
@@ -215,7 +215,7 @@
           },
           {
             name: 'Austin Bauman',
-            role: 'Bike Part Scavenger | Friend of the Team',
+            role: 'Friend of the Team',
             bio: '',
             img: 'austin.png',
             shavedLegs: true,

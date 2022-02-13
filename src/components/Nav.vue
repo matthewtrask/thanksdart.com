@@ -40,7 +40,7 @@
           <!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
           <a href="#team" class="border-transparent text-gray-500 hover:border-black hover:text-black inline-flex items-center px-1 pt-1 border-b-2 text-sm font-bold font-sans"> Team </a>
           <a href="#sponsors" class="border-transparent text-gray-500 hover:border-black hover:text-black inline-flex items-center px-1 pt-1 border-b-2 text-sm font-bold font-sans"> Sponsors </a>
-          <a href="#calendar" class="border-transparent text-gray-500 hover:border-black hover:text-black inline-flex items-center px-1 pt-1 border-b-2 text-sm font-bold font-sans"> Calendar </a>
+<!--          <a href="#calendar" class="border-transparent text-gray-500 hover:border-black hover:text-black inline-flex items-center px-1 pt-1 border-b-2 text-sm font-bold font-sans"> Calendar </a>-->
         </div>
       </div>
       <div class="flex-1 flex sm:items-center lg:items-left lg:justify-left sm:items-stretch sm:justify-center">
@@ -57,7 +57,7 @@
       <!-- Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" -->
       <a href="#team" class="border-transparent text-center text-gray-500 hover:bg-black hover:border-black hover:text-white block pl-3 pr-4 py-2 border-l-4 text-base font-bold font-sans">Team</a>
       <a href="#sponsors" class="border-transparent text-center text-gray-500 hover:bg-black hover:border-black hover:text-white block pl-3 pr-4 py-2 border-l-4 text-base font-bold font-sans">Projects</a>
-      <a href="#calendar" class="border-transparent text-center text-gray-500 hover:bg-black hover:border-black hover:text-white block pl-3 pr-4 py-2 border-l-4 text-base font-bold font-sans">Calendar</a>
+<!--      <a href="#calendar" class="border-transparent text-center text-gray-500 hover:bg-black hover:border-black hover:text-white block pl-3 pr-4 py-2 border-l-4 text-base font-bold font-sans">Calendar</a>-->
       <a href="https://www.instagram.com/explore/tags/thanksdart/" target="_blank" class="text-center text-gray-500 hover:bg-black hover:border-black hover:text-white block pl-3 pr-4 py-6 text-base font-bold font-sans">#thanksdart</a>
     </div>
   </div>
