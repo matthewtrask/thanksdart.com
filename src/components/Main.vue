@@ -161,7 +161,7 @@
     </div>
     <div class="pt-10 pb-10">
       <div class="w-2/3 mx-auto">
-        <div class="grid grid-flow-col auto-cols-fr">
+        <div class="grid sm:grid-cols-2 sm:gap-2 sm:mb-12  lg:grid-flow-col lg:auto-cols-fr">
           <div v-for="team in founders">
             <img :src="getPic(team.img)" v-bind:alt="team.name + ' image'" class="mx-auto h-32 w-32 rounded-full">
             <h4 class="text-center tracking-wider text-3xl pb-4">{{ team.name }}</h4>
@@ -183,7 +183,7 @@
     </div>
     <div class="pt-10 pb-10">
       <div class="w-2/3 mx-auto">
-        <div class="grid sm:grid-cols-2 sm:gap-2 sm:mb-12 lg:grid-cols-3 lg:gap-3 auto-cols-max">
+        <div class="grid sm:grid-cols-2 sm:gap-2 sm:mb-12 lg:grid-cols-3 lg:gap-3 lg:auto-cols-max">
           <div v-for="team in teamMembers" class=" pb-12">
             <img :src="getPic(team.img)" v-bind:alt="team.name + ' image'" class="mx-auto h-32 w-32 rounded-full">
             <h4 class="text-center tracking-wider text-3xl pb-4">{{ team.name }}</h4>
