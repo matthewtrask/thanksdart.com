@@ -22,7 +22,7 @@
     </div>
     <div class="pt-10 pb-10">
       <div class="w-2/3 mx-auto">
-        <h2 class="font-sans font-extrabold antialiased sm:text-1xl lg:text-3xl text-center drop-shadow-lg">The Dart Cycling Team was put together to find the fun in cyle racing. We have members across the United States. From Nashville, Tennessee to Washington, D.C. you can find someone in a Dart kit riding up front.</h2>
+        <h2 class="font-sans font-extrabold antialiased sm:text-1xl lg:text-3xl text-center drop-shadow-lg">The Dart Cycling Team was put together to find the fun in cycle racing. Started in Savannah, GA we have members across the United States. From Nashville, Tennessee to Washington, D.C. you can find someone in a Dart kit riding up front leading the group.</h2>
       </div>
     </div>
     <div class="pt-12 pb-12 bg-black" id="sponsors">
