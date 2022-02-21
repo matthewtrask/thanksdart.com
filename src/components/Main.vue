@@ -409,7 +409,7 @@
           },
 
           {
-            name: 'Heather Sutherland',
+            name: 'Heather Southerland',
             role: 'Friend of the Team',
             bio: '',
             img: 'heather.png',
