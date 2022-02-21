@@ -233,7 +233,7 @@
         founders: [
           {
             name: 'Gregg Gannon',
-            role: 'Founder/Savannah Leader',
+            role: 'Founder | Savannah Leader',
             bio: '',
             img: 'gregg.png',
             shavedLegs: true,
@@ -277,7 +277,7 @@
           },
           {
             name: 'JP Moncada',
-            role: 'Founder/ Nashville Leader',
+            role: 'Founder | Nashville Leader',
             bio: '',
             img: 'jp.png',
             shavedLegs: true,
